@@ -1,12 +1,5 @@
 {
-    "rewrites": [
-      { "source": "/", "destination": "/" },
-      { "source": "/activateaccount", "destination": "/activateaccount" },
-      { "source": "/login", "destination": "/login" },
-      { "source": "/forgotpassword", "destination": "/forgotpassword" },
-      { "source": "/reset-pswrd/:id/:token", "destination": "/reset-pswrd/:id/:token" },
-      { "source": "/urlshortner", "destination": "/urlshortner" },
-      { "source": "/urldashboard", "destination": "/urldashboard" }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
